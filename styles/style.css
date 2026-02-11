@@ -29,14 +29,14 @@ blockquote {
 }
 
 .header__menu {
-  padding-top: 86px;
+  padding-top: 63px;
 }
 
 .header__links-list {
   display: flex;
   justify-content: space-between;
   text-underline-offset: 5px;
-  padding-top: 33px;
+  padding-top: 30px;
   margin: 37px;
   padding-left: 14px;
 }
@@ -60,8 +60,7 @@ blockquote {
 .header__logo {
   width: 148px;
   display: flex;
-  justify-content: center;
-  padding-top: 12px;
+  justify-content: center;  
 }
 
 .header__logo-image {
@@ -81,7 +80,7 @@ blockquote {
   font-size: 18px;
   text-decoration: none;
   font-style: normal;
-  padding-top: 122px;
+  padding-top: 96px;
   padding-right: 53px;
   line-height: 1.35;
 }
