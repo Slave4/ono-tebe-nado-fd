@@ -72,9 +72,10 @@
 .cover {
   position: relative;
   display: flex;
+  flex-direction: column;
   width: 100%;
   min-height: 757px;
-  margin-top: 100px;
+  margin-top: 100px;  
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -86,15 +87,14 @@
   inset: 0;
   z-index: 1;
   width: 100%;
-  height: 100%;
+  height: 100%;  
   background-color: rgba(0, 0, 0, 0.6);
 
 }
 
 .cover__title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column;  
   padding-top: 165px;
   color: white;
   font-size: 100px;
@@ -119,13 +119,15 @@
 }
 
 .aligned-text {
+  z-index: 2;
   letter-spacing: 30px;
 }
 
 .cover__description {
+  z-index: 2;
   display: flex;
   width: 100%;
-  padding: 104px 51px;
+  padding: 106px 51px 0 51px;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
@@ -274,6 +276,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 42px;
   padding-top: 180px;
+  padding-bottom: 82px;
 }
 
 .footer__menu {
