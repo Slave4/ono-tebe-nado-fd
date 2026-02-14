@@ -75,7 +75,7 @@
   flex-direction: column;
   width: 100%;
   min-height: 757px;
-  margin-top: 100px;  
+  margin-top: 100px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -87,14 +87,14 @@
   inset: 0;
   z-index: 1;
   width: 100%;
-  height: 100%;  
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 
 }
 
 .cover__title {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   padding-top: 165px;
   color: white;
   z-index: 2;
@@ -119,7 +119,7 @@
   padding-right: 19px;
 }
 
-.aligned-text {  
+.aligned-text {
   letter-spacing: 30px;
 }
 
